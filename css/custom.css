@@ -1,3 +1,14 @@
+/* Header background image */
 .bg-top {
   background-position: center;
+}
+
+.custom-bg-dim {
+  background: rgba(0,0,0,0.35);
+}
+
+/* Headings */
+
+h1 {
+  margin: 0 !important;
 }
