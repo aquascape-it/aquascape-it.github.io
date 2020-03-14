@@ -4,6 +4,15 @@ body, body * {
   font-weight: 300;
 }
 
+p {
+  margin: 0.75rem 0;
+}
+
+.pv4 {
+  padding-top: 0.5rem;
+  padding-botton: 0.5rem;
+}
+
 /* Header background image */
 .bg-top {
   background-position: center;
@@ -19,8 +28,9 @@ body, body * {
   font-weight: 300;
 }
 
-h1 {
-  margin: 0 0 0.5rem 0 !important;
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 1.5rem 0 0.5rem 0 !important;
 }
 
 time.tracked {
