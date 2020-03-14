@@ -1,3 +1,9 @@
+/* Global */
+body, body * {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;
+  font-weight: 300;
+}
+
 /* Header background image */
 .bg-top {
   background-position: center;
@@ -9,6 +15,14 @@
 
 /* Headings */
 
+.lh-title {
+  font-weight: 300;
+}
+
 h1 {
-  margin: 0 !important;
+  margin: 0 0 0.5rem 0 !important;
+}
+
+time.tracked {
+  margin: 1rem 0;
 }
